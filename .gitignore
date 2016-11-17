@@ -1,3 +1,4 @@
 *.cache
 *.suo
 packages/**
+results/*.xml

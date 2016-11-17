@@ -1,0 +1,1 @@
+%NUNIT-CONSOLE3_5_0% 3_5_0Tests/bin/Debug/3_5_0Tests.dll --result=results/3_5_0.xml
