@@ -23,7 +23,7 @@ namespace NUnitTests
 		[Test]
 		public void Test1()
 		{
-			
+
 		}
 	}
 
@@ -49,8 +49,11 @@ namespace NUnitTests
 		{
 			Assert.AreEqual(1, 0);
 		}
-
-
+		[Test, Explicit]
+		public void ExplicitTest()
+		{
+			Assert.AreEqual(1, 1);
+		}
 		[Test]
 		public void ErrorTest()
 		{
